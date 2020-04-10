@@ -1,6 +1,36 @@
-#do-test-container {
-  padding: 5px;
+.do-test-body {
+  height: 100vh;
+  overflow: hidden;
+  &__header {
+    height: 72px;
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.17);
+  }
+}
 
+.full-h {
+  height: 100%;
+}
+.padding-0 {
+  padding: 0;
+}
+
+.overflow-auto {
+  overflow: auto;
+}
+
+#do-test-container {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 600;
+    font-family: "Times New Roman, Times, serif" !important;
+  }
+  font-family: "Times New Roman, Times, serif" !important;
+  padding: 0;
+  height: calc(100% - 72px - 72px - 10px);
   .numberCircle {
     font-size: 15px;
     font-weight: bold;
@@ -9,11 +39,109 @@
     border-radius: 50%;
     width: 36px;
     height: 36px;
-    padding: 6px;
+    padding: 3px;
     border: 2px solid #28a745;
     text-align: center;
     display: inline-block;
   }
+
+  .course-title {
+    h3 {
+      color: #28a745;
+      font-weight: 700;
+    }
+  }
+  .test-content {
+    &__label-section {
+      color: #28a745;
+    }
+    &__big-title {
+      margin-bottom: 1rem;
+    }
+    input {
+      margin-left: 10px;
+      max-width: 100px;
+    }
+    .gutter-horizontal {
+      cursor: col-resize;
+      background-color: #241c1c;
+      background-image: linear-gradient(
+        to right,
+        #ffffff 20%,
+        #241c1c 51%,
+        #ffffff 80%
+      );
+      opacity: 0.95;
+    }
+
+    &__instruction {
+      color: #2980b9;
+    }
+
+    &__italic {
+      font-style: italic;
+      font-size: 1.25em;
+      color: black;
+      font-weight: 300;
+      margin-left: 2em;
+    }
+    &__italic-child {
+      font-style: italic;
+      font-size: 1.15em;
+      color: black;
+      font-weight: 300;
+      margin-left: 6em;
+    }
+    &__guild-text {
+      font-size: 1.25em;
+      color: black;
+      font-weight: 300;
+    }
+
+    &__guild-text-left {
+      font-size: 1.25em;
+      color: black;
+      font-weight: 300;
+      margin-left: 2em;
+    }
+    &__passage-content {
+      font-size: 1.1em;
+      color: black;
+      font-weight: 300;
+      line-height: 1.8em;
+    }
+    .bold-text {
+      font-weight: 700;
+    }
+    &__passage-title {
+      color: #c0392b;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+
+    &__user-input {
+      border-right: none;
+      border-left: none;
+      border-top: none;
+      border-bottom: 2px solid;
+    }
+
+    .passage-title-2 {
+      color: #007bff;
+      font-weight: 700;
+    }
+  }
+}
+
+.footer-wrapper {
+  height: 72px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.17);
+  background-color: white;
 
   #timer {
     a {
@@ -55,10 +183,10 @@
     }
     .countdown .count-title {
       display: block;
-      margin-bottom: 15px;
       font: normal 0.94em "Lato";
       color: #1a1a1a;
       text-transform: uppercase;
+      font-weight: bold;
     }
     .countdown .figure {
       position: relative;
@@ -181,54 +309,12 @@
     }
   }
 
-  .course-title {
-    h3 {
-      color: #28a745;
-      font-weight: 700;
+  .time-block {
+    &__clock-img {
+      margin-right: 45px;
     }
   }
-  .test-content {
-    input {
-      margin-left: 10px;
-      max-width: 100px;
-    }
-    .gutter-horizontal {
-      cursor: col-resize;
-      background-color: #241c1c;
-      background-image: linear-gradient(
-        to right,
-        #ffffff 20%,
-        #241c1c 51%,
-        #ffffff 80%
-      );
-      opacity: 0.95;
-    }
-    .guild-text {
-      font-size: 1.25em;
-      color: black;
-      font-weight: 300;
-    }
-    .passage-content {
-      font-size: 1.1em;
-      color: black;
-      font-weight: 300;
-      line-height: 1.8em;
-    }
-    .bold-text {
-      font-weight: 700;
-    }
-    .passage-title {
-      color: #c0392b;
-      font-weight: 700;
-    }
-
-    .passage-title {
-      color: #c0392b;
-      font-weight: 700;
-    }
-    .passage-title-2 {
-      color: #007bff;
-      font-weight: 700;
-    }
+  .next-passage {
+    border-radius: 30px;
   }
 }

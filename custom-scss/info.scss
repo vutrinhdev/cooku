@@ -61,9 +61,6 @@
   .title-font-weight {
     font-weight: 600;
   }
-  .cursor-pointer {
-    cursor: pointer;
-  }
 
   .checked {
     color: orange;
@@ -418,4 +415,9 @@
   bottom: 0;
   left: 0;
   margin-top: 0;
+  height: 100px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }

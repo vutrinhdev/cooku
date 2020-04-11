@@ -21,6 +21,13 @@
   overflow: auto;
 }
 #info-container {
+  .carousel-inner {
+    // height: calc(100% - 40px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .feedback {
     &__username {
       font-weight: 300 !important;

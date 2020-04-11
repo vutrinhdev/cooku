@@ -17,6 +17,10 @@
 .overflow-auto {
   overflow: auto; }
 
+#info-container .carousel-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 #info-container .feedback__username {
   font-weight: 300 !important;
   color: #e12419;

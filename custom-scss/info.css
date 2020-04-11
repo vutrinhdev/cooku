@@ -1,3 +1,256 @@
+#info-container .cursor-pointer {
+  cursor: pointer; }
+#info-container .checked {
+  color: orange; }
+#info-container .btn-link {
+  cursor: pointer; }
+#info-container .nav-link.active {
+  color: #e12419; }
+#info-container a {
+  color: #495057; }
+#info-container .nav-item {
+  font-weight: bold; }
+#info-container .green-color {
+  color: green; }
+#info-container .blue-color {
+  color: #007bff !important; }
+#info-container .bold-text {
+  font-weight: bold; }
 #info-container .normal-text {
   font-size: 1.1em;
-  font-weight: 300; }
+  color: black;
+  font-weight: 300;
+  line-height: 1.8em; }
+#info-container .card {
+  border: none; }
+#info-container .carousel-control-prev {
+  width: 2%; }
+#info-container .carousel-control-next {
+  width: 2%; }
+#info-container .black-color {
+  color: black; }
+#info-container .red-big-title {
+  font-weight: bold;
+  color: #ea4c4c; }
+#info-container #timer a {
+  text-decoration: none;
+  color: #1a1a1a; }
+#info-container #timer h1 {
+  margin-bottom: 60px;
+  text-align: center;
+  font: 300 2.25em "Lato";
+  text-transform: uppercase; }
+#info-container #timer h1 strong {
+  font-weight: 400;
+  color: #ea4c4c; }
+#info-container #timer h2 {
+  margin-bottom: 80px;
+  text-align: center;
+  font: 300 0.7em "Lato";
+  text-transform: uppercase; }
+#info-container #timer h2 strong {
+  font-weight: 400; }
+#info-container #timer .countdown {
+  margin: 0 auto; }
+#info-container #timer .countdown .bloc-time {
+  float: left;
+  margin-right: 45px;
+  text-align: center; }
+#info-container #timer .countdown .bloc-time:last-child {
+  margin-right: 0; }
+#info-container #timer .countdown .count-title {
+  display: block;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font: normal 1.94em "Lato";
+  color: #1a1a1a;
+  text-transform: uppercase; }
+#info-container #timer .countdown .figure {
+  position: relative;
+  float: left;
+  height: 107px;
+  width: 100px;
+  margin-right: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  -moz-box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2), inset 2px 4px 0 0 rgba(255, 255, 255, 0.08);
+  -webkit-box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2), inset 2px 4px 0 0 rgba(255, 255, 255, 0.08);
+  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2), inset 2px 4px 0 0 rgba(255, 255, 255, 0.08); }
+#info-container #timer .countdown .figure:last-child {
+  margin-right: 0; }
+#info-container #timer .countdown .figure > span {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  font: normal 4.94em/107px "Lato";
+  font-weight: 700;
+  color: #de4848; }
+#info-container #timer .countdown .figure .top:after,
+#info-container #timer .countdown .figure .bottom-back:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+#info-container #timer .countdown .figure .top {
+  z-index: 3;
+  background-color: #f7f7f7;
+  transform-origin: 50% 100%;
+  -webkit-transform-origin: 50% 100%;
+  -moz-border-radius-topleft: 10px;
+  -webkit-border-top-left-radius: 10px;
+  border-top-left-radius: 10px;
+  -moz-border-radius-topright: 10px;
+  -webkit-border-top-right-radius: 10px;
+  border-top-right-radius: 10px;
+  -moz-transform: perspective(200px);
+  -ms-transform: perspective(200px);
+  -webkit-transform: perspective(200px);
+  transform: perspective(200px); }
+#info-container #timer .countdown .figure .bottom {
+  z-index: 1; }
+#info-container #timer .countdown .figure .bottom:before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background-color: rgba(0, 0, 0, 0.02); }
+#info-container #timer .countdown .figure .bottom-back {
+  z-index: 2;
+  top: 0;
+  height: 50%;
+  overflow: hidden;
+  background-color: #f7f7f7;
+  -moz-border-radius-topleft: 10px;
+  -webkit-border-top-left-radius: 10px;
+  border-top-left-radius: 10px;
+  -moz-border-radius-topright: 10px;
+  -webkit-border-top-right-radius: 10px;
+  border-top-right-radius: 10px; }
+#info-container #timer .countdown .figure .bottom-back span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto; }
+#info-container #timer .countdown .figure .top,
+#info-container #timer .countdown .figure .top-back {
+  height: 50%;
+  overflow: hidden;
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden; }
+#info-container #timer .countdown .figure .top-back {
+  z-index: 4;
+  bottom: 0;
+  background-color: #fff;
+  -webkit-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  -moz-transform: perspective(200px) rotateX(180deg);
+  -ms-transform: perspective(200px) rotateX(180deg);
+  -webkit-transform: perspective(200px) rotateX(180deg);
+  transform: perspective(200px) rotateX(180deg);
+  -moz-border-radius-bottomleft: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  -moz-border-radius-bottomright: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  border-bottom-right-radius: 10px; }
+#info-container #timer .countdown .figure .top-back span {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  right: 0;
+  margin: auto; }
+#info-container #compare-pricing-table .pricing-table-product-box {
+  -webkit-box-shadow: 0 4px 9px 0 rgba(67, 65, 79, 0.1);
+  box-shadow: 0 4px 9px 0 rgba(67, 65, 79, 0.1);
+  border: solid 2px #f5f5f5;
+  height: 100%; }
+#info-container #compare-pricing-table .primary {
+  background-color: #6747c7;
+  color: #fff; }
+#info-container #compare-pricing-table .primary.l200 {
+  background-color: #b5a4e3; }
+#info-container #compare-pricing-table .secondary {
+  background-color: #fc5155;
+  color: #000; }
+#info-container #compare-pricing-table .secondary.l200 {
+  background-color: #f79b9e; }
+#info-container #compare-pricing-table .border-radius-round {
+  border-radius: 100px !important; }
+#info-container #compare-pricing-table .price-block {
+  font-size: 20px; }
+#info-container #compare-pricing-table .price-block-wrapper {
+  font-size: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+#info-container #compare-pricing-table .pricing-table-new .price-block-wrapper {
+  font-size: 0.7em; }
+#info-container #compare-pricing-table .price-block__currency {
+  font-size: 1em;
+  font-weight: 700;
+  margin-top: 0.2em; }
+#info-container #compare-pricing-table .price-block__bigno {
+  font-size: 3em;
+  font-weight: 700;
+  line-height: 0.8em; }
+#info-container #compare-pricing-table .button {
+  font-size: 1.6rem;
+  letter-spacing: 0;
+  line-height: 2.4rem; }
+#info-container #compare-pricing-table .h-button {
+  max-height: 56px;
+  background-color: #6747c7;
+  border-radius: 3px;
+  padding: 15px 20px;
+  color: #fff;
+  word-break: break-word;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #6747c7;
+  -webkit-appearance: unset;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+@media (min-width: 1200px) {
+  #info-container #compare-pricing-table .pr-40-xl {
+    padding-right: 40px !important; } }
+@media (min-width: 1200px) {
+  #info-container #compare-pricing-table .pl-40-xl {
+    padding-left: 40px !important; } }
+@media (min-width: 768px) {
+  #info-container #compare-pricing-table .pr-25-md {
+    padding-right: 25px !important; } }
+@media (min-width: 768px) {
+  #info-container #compare-pricing-table .pl-25-md {
+    padding-left: 25px !important; } }
+#info-container #compare-pricing-table .pb-50 {
+  padding-bottom: 50px !important; }
+#info-container #compare-pricing-table .pt-50 {
+  padding-top: 50px !important; }
+#info-container #compare-pricing-table .pr-40 {
+  padding-right: 40px !important; }
+#info-container #compare-pricing-table .pl-40 {
+  padding-left: 40px !important; }

@@ -1,50 +1,145 @@
+.do-test-body {
+  height: 100vh;
+  overflow: hidden; }
+  .do-test-body__header {
+    height: 72px;
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.17); }
+
+.full-h {
+  height: 100%; }
+
+.padding-0 {
+  padding: 0; }
+
+.overflow-auto {
+  overflow: auto; }
+
 #do-test-container {
-  padding: 5px; }
+  font-family: "Times New Roman, Times, serif" !important;
+  padding: 0;
+  height: calc(100% - 72px - 72px - 10px); }
+  #do-test-container h1,
+  #do-test-container h2,
+  #do-test-container h3,
+  #do-test-container h4,
+  #do-test-container h5,
+  #do-test-container h6 {
+    font-weight: 600;
+    font-family: "Times New Roman, Times, serif" !important; }
   #do-test-container .numberCircle {
     font-size: 15px;
     font-weight: bold;
     color: white;
     background: #28a745;
     border-radius: 50%;
-    width: 36px;
-    height: 36px;
-    padding: 6px;
+    width: 32px;
+    height: 32px;
+    padding: 0px;
     border: 2px solid #28a745;
     text-align: center;
     display: inline-block; }
-  #do-test-container #timer a {
+  #do-test-container .course-title h3 {
+    color: #28a745;
+    font-weight: 700; }
+  #do-test-container .test-content__label-section {
+    color: #28a745; }
+  #do-test-container .test-content__big-title {
+    margin-bottom: 1rem; }
+  #do-test-container .test-content input {
+    margin-left: 10px;
+    max-width: 100px; }
+  #do-test-container .test-content .gutter-horizontal {
+    cursor: col-resize;
+    background-color: #241c1c;
+    background-image: linear-gradient(to right, #ffffff 20%, #241c1c 51%, #ffffff 80%);
+    opacity: 0.95; }
+  #do-test-container .test-content__instruction {
+    color: #2980b9; }
+  #do-test-container .test-content__italic {
+    font-style: italic;
+    font-size: 1.25em;
+    color: black;
+    font-weight: 300;
+    margin-left: 2em; }
+  #do-test-container .test-content__italic-child {
+    font-style: italic;
+    font-size: 1.15em;
+    color: black;
+    font-weight: 300;
+    margin-left: 6em; }
+  #do-test-container .test-content__guild-text {
+    font-size: 1.25em;
+    color: black;
+    font-weight: 300; }
+  #do-test-container .test-content__guild-text-left {
+    font-size: 1.25em;
+    color: black;
+    font-weight: 300;
+    margin-left: 2em; }
+  #do-test-container .test-content__passage-content {
+    font-size: 1.1em;
+    color: black;
+    font-weight: 300;
+    line-height: 1.8em; }
+  #do-test-container .test-content .bold-text {
+    font-weight: 700; }
+  #do-test-container .test-content__passage-title {
+    color: #c0392b;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-align: center; }
+  #do-test-container .test-content__user-input {
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: 2px solid; }
+  #do-test-container .test-content__checkbox-text {
+    margin-left: 2em; }
+  #do-test-container .test-content .passage-title-2 {
+    color: #007bff;
+    font-weight: 700; }
+
+.footer-wrapper {
+  height: 72px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.17);
+  background-color: white; }
+  .footer-wrapper #timer a {
     text-decoration: none;
     color: #1a1a1a; }
-  #do-test-container #timer h1 {
+  .footer-wrapper #timer h1 {
     margin-bottom: 60px;
     text-align: center;
     font: 300 2.25em "Lato";
     text-transform: uppercase; }
-  #do-test-container #timer h1 strong {
+  .footer-wrapper #timer h1 strong {
     font-weight: 400;
     color: #ea4c4c; }
-  #do-test-container #timer h2 {
+  .footer-wrapper #timer h2 {
     margin-bottom: 80px;
     text-align: center;
     font: 300 0.7em "Lato";
     text-transform: uppercase; }
-  #do-test-container #timer h2 strong {
+  .footer-wrapper #timer h2 strong {
     font-weight: 400; }
-  #do-test-container #timer .countdown {
+  .footer-wrapper #timer .countdown {
     margin: 0 auto; }
-  #do-test-container #timer .countdown .bloc-time {
+  .footer-wrapper #timer .countdown .bloc-time {
     float: left;
     margin-right: 45px;
     text-align: center; }
-  #do-test-container #timer .countdown .bloc-time:last-child {
+  .footer-wrapper #timer .countdown .bloc-time:last-child {
     margin-right: 0; }
-  #do-test-container #timer .countdown .count-title {
+  .footer-wrapper #timer .countdown .count-title {
     display: block;
-    margin-bottom: 15px;
     font: normal 0.94em "Lato";
     color: #1a1a1a;
-    text-transform: uppercase; }
-  #do-test-container #timer .countdown .figure {
+    text-transform: uppercase;
+    font-weight: bold; }
+  .footer-wrapper #timer .countdown .figure {
     position: relative;
     float: left;
     height: 25px;
@@ -55,9 +150,9 @@
     -moz-box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2), inset 2px 4px 0 0 rgba(255, 255, 255, 0.08);
     -webkit-box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2), inset 2px 4px 0 0 rgba(255, 255, 255, 0.08);
     box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2), inset 2px 4px 0 0 rgba(255, 255, 255, 0.08); }
-  #do-test-container #timer .countdown .figure:last-child {
+  .footer-wrapper #timer .countdown .figure:last-child {
     margin-right: 0; }
-  #do-test-container #timer .countdown .figure > span {
+  .footer-wrapper #timer .countdown .figure > span {
     position: absolute;
     left: 0;
     right: 0;
@@ -65,8 +160,8 @@
     font: normal 1.94em/25px "Lato";
     font-weight: 700;
     color: #de4848; }
-  #do-test-container #timer .countdown .figure .top:after,
-  #do-test-container #timer .countdown .figure .bottom-back:after {
+  .footer-wrapper #timer .countdown .figure .top:after,
+  .footer-wrapper #timer .countdown .figure .bottom-back:after {
     content: "";
     position: absolute;
     z-index: -1;
@@ -75,7 +170,7 @@
     width: 100%;
     height: 100%;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
-  #do-test-container #timer .countdown .figure .top {
+  .footer-wrapper #timer .countdown .figure .top {
     z-index: 3;
     background-color: #f7f7f7;
     transform-origin: 50% 100%;
@@ -90,9 +185,9 @@
     -ms-transform: perspective(200px);
     -webkit-transform: perspective(200px);
     transform: perspective(200px); }
-  #do-test-container #timer .countdown .figure .bottom {
+  .footer-wrapper #timer .countdown .figure .bottom {
     z-index: 1; }
-  #do-test-container #timer .countdown .figure .bottom:before {
+  .footer-wrapper #timer .countdown .figure .bottom:before {
     content: "";
     position: absolute;
     display: block;
@@ -101,7 +196,7 @@
     width: 100%;
     height: 50%;
     background-color: rgba(0, 0, 0, 0.02); }
-  #do-test-container #timer .countdown .figure .bottom-back {
+  .footer-wrapper #timer .countdown .figure .bottom-back {
     z-index: 2;
     top: 0;
     height: 50%;
@@ -113,20 +208,20 @@
     -moz-border-radius-topright: 10px;
     -webkit-border-top-right-radius: 10px;
     border-top-right-radius: 10px; }
-  #do-test-container #timer .countdown .figure .bottom-back span {
+  .footer-wrapper #timer .countdown .figure .bottom-back span {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     margin: auto; }
-  #do-test-container #timer .countdown .figure .top,
-  #do-test-container #timer .countdown .figure .top-back {
+  .footer-wrapper #timer .countdown .figure .top,
+  .footer-wrapper #timer .countdown .figure .top-back {
     height: 50%;
     overflow: hidden;
     -moz-backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden; }
-  #do-test-container #timer .countdown .figure .top-back {
+  .footer-wrapper #timer .countdown .figure .top-back {
     z-index: 4;
     bottom: 0;
     background-color: #fff;
@@ -142,40 +237,13 @@
     -moz-border-radius-bottomright: 10px;
     -webkit-border-bottom-right-radius: 10px;
     border-bottom-right-radius: 10px; }
-  #do-test-container #timer .countdown .figure .top-back span {
+  .footer-wrapper #timer .countdown .figure .top-back span {
     position: absolute;
     top: -100%;
     left: 0;
     right: 0;
     margin: auto; }
-  #do-test-container .course-title h3 {
-    color: #28a745;
-    font-weight: 700; }
-  #do-test-container .test-content input {
-    margin-left: 10px;
-    max-width: 100px; }
-  #do-test-container .test-content .gutter-horizontal {
-    cursor: col-resize;
-    background-color: #241c1c;
-    background-image: linear-gradient(to right, #ffffff 20%, #241c1c 51%, #ffffff 80%);
-    opacity: 0.95; }
-  #do-test-container .test-content .guild-text {
-    font-size: 1.25em;
-    color: black;
-    font-weight: 300; }
-  #do-test-container .test-content .passage-content {
-    font-size: 1.1em;
-    color: black;
-    font-weight: 300;
-    line-height: 1.8em; }
-  #do-test-container .test-content .bold-text {
-    font-weight: 700; }
-  #do-test-container .test-content .passage-title {
-    color: #c0392b;
-    font-weight: 700; }
-  #do-test-container .test-content .passage-title {
-    color: #c0392b;
-    font-weight: 700; }
-  #do-test-container .test-content .passage-title-2 {
-    color: #007bff;
-    font-weight: 700; }
+  .footer-wrapper .time-block__clock-img {
+    margin-right: 45px; }
+  .footer-wrapper .next-passage {
+    border-radius: 30px; }

@@ -1,5 +1,17 @@
 #do-test-container {
   padding: 5px; }
+  #do-test-container .numberCircle {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background: #28a745;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    padding: 6px;
+    border: 2px solid #28a745;
+    text-align: center;
+    display: inline-block; }
   #do-test-container #timer a {
     text-decoration: none;
     color: #1a1a1a; }
@@ -139,6 +151,9 @@
   #do-test-container .course-title h3 {
     color: #28a745;
     font-weight: 700; }
+  #do-test-container .test-content input {
+    margin-left: 10px;
+    max-width: 100px; }
   #do-test-container .test-content .gutter-horizontal {
     cursor: col-resize;
     background-color: #241c1c;
@@ -151,7 +166,8 @@
   #do-test-container .test-content .passage-content {
     font-size: 1.1em;
     color: black;
-    font-weight: 300; }
+    font-weight: 300;
+    line-height: 1.8em; }
   #do-test-container .test-content .bold-text {
     font-weight: 700; }
   #do-test-container .test-content .passage-title {

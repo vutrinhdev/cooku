@@ -1,3 +1,50 @@
+.info-body {
+  height: 100vh;
+  overflow: hidden; }
+  .info-body__header {
+    height: 72px;
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.17); }
+
+.full-h {
+  height: 100%; }
+
+.full-w {
+  width: 100%; }
+
+.padding-0 {
+  padding: 0; }
+
+.overflow-auto {
+  overflow: auto; }
+
+#info-container .feedback__username {
+  font-weight: 300 !important;
+  color: #e12419;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  margin-bottom: 5px; }
+#info-container .course-title {
+  background-color: inherit;
+  border-bottom: inherit; }
+#info-container #nav-tabContent::-webkit-scrollbar {
+  width: 6px;
+  background-color: #f5f5f5; }
+#info-container #nav-tabContent::-webkit-scrollbar-thumb {
+  background-color: #000000; }
+#info-container #nav-tabContent::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #f5f5f5; }
+#info-container .title {
+  height: 100px; }
+#info-container .nav-tab {
+  height: 41px; }
+#info-container .scrollable-content {
+  height: calc(100% - 100px - 41px);
+  overflow-x: hidden; }
+#info-container .title-font-weight {
+  font-weight: 600; }
 #info-container .cursor-pointer {
   cursor: pointer; }
 #info-container .checked {
@@ -68,7 +115,7 @@
 #info-container #timer .countdown .figure {
   position: relative;
   float: left;
-  height: 107px;
+  height: 108px;
   width: 100px;
   margin-right: 10px;
   background-color: #fff;
@@ -254,3 +301,10 @@
   padding-right: 40px !important; }
 #info-container #compare-pricing-table .pl-40 {
   padding-left: 40px !important; }
+
+.info-footer-wrapper {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin-top: 0; }

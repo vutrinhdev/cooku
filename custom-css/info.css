@@ -17,6 +17,10 @@
 .overflow-auto {
   overflow: auto; }
 
+#info-container .best-seller-tag {
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  font-weight: bold; }
 #info-container .feedback__username {
   font-weight: 300 !important;
   color: #e12419;

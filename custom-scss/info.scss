@@ -21,6 +21,11 @@
   overflow: auto;
 }
 #info-container {
+  .best-seller-tag {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-weight: bold;
+  }
   .feedback {
     &__username {
       font-weight: 300 !important;

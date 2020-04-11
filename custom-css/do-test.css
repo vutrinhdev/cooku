@@ -93,6 +93,8 @@
     border-left: none;
     border-top: none;
     border-bottom: 2px solid; }
+  #do-test-container .test-content__checkbox-text {
+    margin-left: 2em; }
   #do-test-container .test-content .passage-title-2 {
     color: #007bff;
     font-weight: 700; }

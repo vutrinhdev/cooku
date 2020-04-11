@@ -17,10 +17,6 @@
 .overflow-auto {
   overflow: auto; }
 
-#info-container .carousel-inner {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
 #info-container .feedback__username {
   font-weight: 300 !important;
   color: #e12419;
@@ -29,6 +25,8 @@
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   margin-bottom: 5px; }
+#info-container .title-rate-tab {
+  height: 40px; }
 #info-container .course-title {
   background-color: inherit;
   border-bottom: inherit; }

@@ -21,13 +21,6 @@
   overflow: auto;
 }
 #info-container {
-  .carousel-inner {
-    // height: calc(100% - 40px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
   .feedback {
     &__username {
       font-weight: 300 !important;
@@ -38,6 +31,9 @@
       transition: all 0.3s ease 0s;
       margin-bottom: 5px;
     }
+  }
+  .title-rate-tab {
+    height: 40px;
   }
   .course-title {
     background-color: inherit;

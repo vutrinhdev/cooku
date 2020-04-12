@@ -114,6 +114,28 @@
     border-bottom: 2px solid; }
   .do-test-container .test-content__checkbox-text {
     margin-left: 2em; }
+  .do-test-container .test-content__split-half-scroll {
+    height: 50%;
+    overflow: auto; }
+  .do-test-container .answer .card {
+    border: none; }
+    .do-test-container .answer .card .course-title {
+      padding-left: inherit;
+      background-color: inherit;
+      border-bottom: inherit; }
+  .do-test-container .answer .custom-numberCircle {
+    line-height: 2em;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background: #28a745;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    padding: 0px;
+    border: 2px solid #28a745;
+    text-align: center;
+    display: inline-block; }
 
 .footer-wrapper {
   height: 72px;

@@ -1,3 +1,5 @@
+@import "./common.scss";
+
 .info-body {
   height: 100vh;
   overflow: hidden;
@@ -5,20 +7,6 @@
     height: 72px;
     box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.17);
   }
-}
-.full-h {
-  height: 100%;
-}
-
-.full-w {
-  width: 100%;
-}
-.padding-0 {
-  padding: 0;
-}
-
-.overflow-auto {
-  overflow: auto;
 }
 #info-container {
   .best-seller-tag {
@@ -94,16 +82,6 @@
     color: #007bff !important;
   }
 
-  .bold-text {
-    font-weight: bold;
-  }
-
-  .normal-text {
-    font-size: 1.1em;
-    color: black;
-    font-weight: 400;
-    line-height: 1.8em;
-  }
   .card {
     border: none;
   }
@@ -112,13 +90,6 @@
   }
   .carousel-control-next {
     width: 2%;
-  }
-  .black-color {
-    color: black;
-  }
-  .red-big-title {
-    font-weight: bold;
-    color: #ea4c4c;
   }
 
   #timer {

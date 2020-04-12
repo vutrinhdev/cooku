@@ -136,6 +136,10 @@
     border: 2px solid #28a745;
     text-align: center;
     display: inline-block; }
+  .do-test-container .answer .passage-content {
+    color: black;
+    font-weight: 300;
+    line-height: 1.8em; }
 
 .footer-wrapper {
   height: 72px;

@@ -126,6 +126,8 @@
       padding-left: inherit;
       background-color: inherit;
       border-bottom: inherit; }
+    .do-test-container .answer .card .card-body {
+      padding-top: 0; }
   .do-test-container .answer .custom-numberCircle {
     line-height: 2em;
     font-size: 15px;

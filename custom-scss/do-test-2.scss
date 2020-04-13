@@ -135,6 +135,9 @@
         background-color: inherit;
         border-bottom: inherit;
       }
+      .card-body {
+        padding-top: 0;
+      }
     }
     .custom-numberCircle {
       line-height: 2em;

@@ -10,6 +10,9 @@
 .overflow-auto {
   overflow: auto; }
 
+.green-color {
+  color: #218838; }
+
 .black-color {
   color: black; }
 
@@ -115,7 +118,7 @@
   .do-test-container .test-content__checkbox-text {
     margin-left: 2em; }
   .do-test-container .test-content__split-half-scroll {
-    height: 50%;
+    height: calc(50% - 9px);
     overflow: auto; }
   .do-test-container .answer .card {
     border: none; }

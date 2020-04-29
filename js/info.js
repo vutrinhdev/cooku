@@ -1,53 +1,8 @@
 $(document).ready(function () {
   "use strict";
 
-
-
-  // Cache selectors
-  var lastId,
-    topMenu = $("#stick-vertical-nav"),
-    topMenuHeight = topMenu.outerHeight() + 1,
-    // All list items
-    menuItems = topMenu.find("a"),
-    // Anchors corresponding to menu items
-    scrollItems = menuItems.map(function () {
-      var item = $($(this).attr("href"));
-      if (item.length) { return item; }
-    });
-
-  // Bind click handler to menu items
-  // so we can get a fancy scroll animation
-  menuItems.click(function (e) {
-    var href = $(this).attr("href"),
-      offsetTop = href === "#" ? 0 : $(href).offset().top - topMenuHeight + 1 - 171;
-    $('html, body').stop().animate({
-      scrollTop: offsetTop
-    }, 850);
-    e.preventDefault();
-  });
-
-  // Bind to scroll
-  $(window).scroll(function () {
-    // Get container scroll position
-    var fromTop = $(this).scrollTop() + topMenuHeight;
-
-    // Get id of current scroll item
-    var cur = scrollItems.map(function () {
-      if ($(this).offset().top < fromTop)
-        return this;
-    });
-    // Get the id of the current element
-    cur = cur[cur.length - 1];
-    var id = cur && cur.length ? cur[0].id : "";
-
-    if (lastId !== id) {
-      lastId = id;
-      // Set/remove active class
-      menuItems
-        .parent().removeClass("active")
-        .end().filter("[href=#" + id + "]").parent().addClass("active");
-    }
-  });
+  // var elm = $(".main-header");
+  // var ms = new MenuSpy(elm);
 
 
   var window_width = $(window).width(),
@@ -296,148 +251,6 @@ $(document).ready(function () {
 
   }
 
-  //------- Google Map  js --------//  
-
-  if (document.getElementById("map")) {
-    google.maps.event.addDomListener(window, 'load', init);
-
-    function init() {
-      var mapOptions = {
-        zoom: 11,
-        center: new google.maps.LatLng(40.6700, -73.9400), // New York
-        styles: [{
-          "featureType": "water",
-          "elementType": "geometry",
-          "stylers": [{
-            "color": "#e9e9e9"
-          }, {
-            "lightness": 17
-          }]
-        }, {
-          "featureType": "landscape",
-          "elementType": "geometry",
-          "stylers": [{
-            "color": "#f5f5f5"
-          }, {
-            "lightness": 20
-          }]
-        }, {
-          "featureType": "road.highway",
-          "elementType": "geometry.fill",
-          "stylers": [{
-            "color": "#ffffff"
-          }, {
-            "lightness": 17
-          }]
-        }, {
-          "featureType": "road.highway",
-          "elementType": "geometry.stroke",
-          "stylers": [{
-            "color": "#ffffff"
-          }, {
-            "lightness": 29
-          }, {
-            "weight": 0.2
-          }]
-        }, {
-          "featureType": "road.arterial",
-          "elementType": "geometry",
-          "stylers": [{
-            "color": "#ffffff"
-          }, {
-            "lightness": 18
-          }]
-        }, {
-          "featureType": "road.local",
-          "elementType": "geometry",
-          "stylers": [{
-            "color": "#ffffff"
-          }, {
-            "lightness": 16
-          }]
-        }, {
-          "featureType": "poi",
-          "elementType": "geometry",
-          "stylers": [{
-            "color": "#f5f5f5"
-          }, {
-            "lightness": 21
-          }]
-        }, {
-          "featureType": "poi.park",
-          "elementType": "geometry",
-          "stylers": [{
-            "color": "#dedede"
-          }, {
-            "lightness": 21
-          }]
-        }, {
-          "elementType": "labels.text.stroke",
-          "stylers": [{
-            "visibility": "on"
-          }, {
-            "color": "#ffffff"
-          }, {
-            "lightness": 16
-          }]
-        }, {
-          "elementType": "labels.text.fill",
-          "stylers": [{
-            "saturation": 36
-          }, {
-            "color": "#333333"
-          }, {
-            "lightness": 40
-          }]
-        }, {
-          "elementType": "labels.icon",
-          "stylers": [{
-            "visibility": "off"
-          }]
-        }, {
-          "featureType": "transit",
-          "elementType": "geometry",
-          "stylers": [{
-            "color": "#f2f2f2"
-          }, {
-            "lightness": 19
-          }]
-        }, {
-          "featureType": "administrative",
-          "elementType": "geometry.fill",
-          "stylers": [{
-            "color": "#fefefe"
-          }, {
-            "lightness": 20
-          }]
-        }, {
-          "featureType": "administrative",
-          "elementType": "geometry.stroke",
-          "stylers": [{
-            "color": "#fefefe"
-          }, {
-            "lightness": 17
-          }, {
-            "weight": 1.2
-          }]
-        }]
-      };
-      var mapElement = document.getElementById('map');
-      var map = new google.maps.Map(mapElement, mapOptions);
-      var marker = new google.maps.Marker({
-        position: new google.maps.LatLng(40.6700, -73.9400),
-        map: map,
-        title: 'Snazzy!'
-      });
-    }
-  }
-
-  //------- Mailchimp js --------//
-
-  $(document).ready(function () {
-    $('#mc_embed_signup').find('form').ajaxChimp();
-  });
-
   /*----------------------------------------------------*/
   /*  Isotope Fillter js
   /*----------------------------------------------------*/
@@ -538,11 +351,6 @@ var Countdown = {
 
     // Animate countdown to the end 
     this.count();
-    Split(['#one', '#two'], {
-      sizes: [50, 50],
-      minSize: 400,
-      gutterSize: 10,
-    })
   },
 
   count: function () {

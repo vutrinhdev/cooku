@@ -24,16 +24,20 @@
       margin-bottom: 5px;
     }
   }
+
+  .title {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-left: 1em;
+    margin-bottom: 2em;
+  }
+
   #general-info {
     .icon-size {
       font-size: 90px;
     }
     .col {
-      padding: 35px;
-    }
-    .title {
-      font-size: 1.5em;
-      font-weight: 600;
+      padding: 0px 35px 35px 0px;
     }
   }
 
@@ -51,15 +55,22 @@
   }
 
   #student-feedback {
+    .process-wrapper {
+      height: 30px;
+      background-color: #e3e3e4;
+      border: 1px solid #e3e3e4;
+      border-radius: 10px;
+      padding: 0;
+    }
     .rating-score {
       font-weight: 400;
       font-size: 9em;
     }
-    .raing-star-wrapper {
+    .rating-star-wrapper {
       font-size: 2em;
     }
-    .process-80 {
-      background-color: black;
+    .small-rating-star-wrapper {
+      font-size: 2em;
     }
   }
 
@@ -82,9 +93,6 @@
     background-color: #f5f5f5;
   }
 
-  .title {
-    height: 100px;
-  }
   .nav-tab {
     height: 41px;
   }
@@ -436,6 +444,9 @@
 }
 
 #stick-vertical-nav {
+  #mainNav {
+    margin-left: 30px;
+  }
   font-weight: bold;
   nav {
     position: fixed;

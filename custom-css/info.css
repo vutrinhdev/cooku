@@ -43,13 +43,15 @@
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
     margin-bottom: 5px; }
+  #info-container .title {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-left: 1em;
+    margin-bottom: 2em; }
   #info-container #general-info .icon-size {
     font-size: 90px; }
   #info-container #general-info .col {
-    padding: 35px; }
-  #info-container #general-info .title {
-    font-size: 1.5em;
-    font-weight: 600; }
+    padding: 0px 35px 35px 0px; }
   #info-container #course-info .icon-size {
     font-size: 90px;
     color: #e12419; }
@@ -57,13 +59,19 @@
     padding: 35px; }
   #info-container #course-info .test-heading-icon {
     font-size: 30px; }
+  #info-container #student-feedback .process-wrapper {
+    height: 30px;
+    background-color: #e3e3e4;
+    border: 1px solid #e3e3e4;
+    border-radius: 10px;
+    padding: 0; }
   #info-container #student-feedback .rating-score {
     font-weight: 400;
     font-size: 9em; }
-  #info-container #student-feedback .raing-star-wrapper {
+  #info-container #student-feedback .rating-star-wrapper {
     font-size: 2em; }
-  #info-container #student-feedback .process-80 {
-    background-color: black; }
+  #info-container #student-feedback .small-rating-star-wrapper {
+    font-size: 2em; }
   #info-container .title-rate-tab {
     height: 40px; }
   #info-container .course-title {
@@ -77,8 +85,6 @@
   #info-container #nav-tabContent::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
     background-color: #f5f5f5; }
-  #info-container .title {
-    height: 100px; }
   #info-container .nav-tab {
     height: 41px; }
   #info-container .title-font-weight {
@@ -335,6 +341,8 @@
 
 #stick-vertical-nav {
   font-weight: bold; }
+  #stick-vertical-nav #mainNav {
+    margin-left: 30px; }
   #stick-vertical-nav nav {
     position: fixed;
     top: 71px;

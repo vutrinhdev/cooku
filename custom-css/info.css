@@ -59,6 +59,8 @@
     padding: 35px; }
   #info-container #course-info .test-heading-icon {
     font-size: 30px; }
+  #info-container #course-info button {
+    width: 118px; }
   #info-container #student-feedback .process-wrapper {
     height: 30px;
     background-color: #e3e3e4;

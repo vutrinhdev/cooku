@@ -53,6 +53,8 @@
     color: #e12419; }
   #info-container #course-info .col {
     padding: 35px; }
+  #info-container #course-info .test-heading-icon {
+    font-size: 30px; }
   #info-container .title-rate-tab {
     height: 40px; }
   #info-container .course-title {

@@ -29,6 +29,31 @@
   font-weight: 400;
   line-height: 1.8em; }
 
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px; }
+
+.btn-circle.btn-lg {
+  width: 50px !important;
+  height: 50px !important;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 25px; }
+
+.btn-circle.btn-xl {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  font-size: 24px;
+  line-height: 1.33;
+  border-radius: 35px; }
+
 #info-container {
   margin: 70px 30px 30px 30px; }
   #info-container .best-seller-tag {
@@ -371,3 +396,10 @@
     #stick-vertical-nav ul .active a {
       color: #f38a8a;
       border-bottom: 3px solid #f38a8a; }
+
+#toTop {
+  padding: 5px 3px;
+  position: fixed;
+  bottom: 10px;
+  right: 5px;
+  font-size: 30px; }

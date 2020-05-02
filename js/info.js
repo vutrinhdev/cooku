@@ -5,7 +5,7 @@ $(document).ready(function () {
   // Cache selectors
   var lastId,
     topMenu = $("#mainNav"),
-    topMenuHeight = topMenu.outerHeight() + 15,
+    topMenuHeight = topMenu.outerHeight() + 171,
     // All list items
     menuItems = topMenu.find("a"),
     // Anchors corresponding to menu items
@@ -25,10 +25,22 @@ $(document).ready(function () {
     e.preventDefault();
   });
 
+  let _fromTop = $(this).scrollTop();
+  if (_fromTop > 100) {
+    $('#header').addClass('header-scrolled');
+  }
+
+
   // Bind to scroll
   $(window).scroll(function () {
     // Get container scroll position
     var fromTop = $(this).scrollTop() + topMenuHeight;
+
+    if (fromTop < 80) {
+      menuItems
+        .parent().removeClass("active")
+        .end().filter("[href='#" + 'general-info' + "']").parent().addClass("active");
+    }
 
     // Get id of current scroll item
     var cur = scrollItems.map(function () {

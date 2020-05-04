@@ -30,7 +30,7 @@
   line-height: 1.8em; }
 
 .normal-text-2 {
-  font-size: 1.2em;
+  font-size: 1.6em;
   color: black;
   font-weight: 600;
   line-height: 1.8em; }
@@ -61,7 +61,7 @@
   border-radius: 35px; }
 
 #info-container {
-  margin: 70px 30px 30px 30px; }
+  margin: 0px 25px 30px 25px; }
   #info-container .best-seller-tag {
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
@@ -75,36 +75,61 @@
     transition: all 0.3s ease 0s;
     margin-bottom: 5px; }
   #info-container .title {
-    font-size: 1.5em;
+    font-size: 1.8em;
     font-weight: 600;
     margin-left: 1em;
-    margin-bottom: 2em; }
-  #info-container #general-info .icon-size {
-    font-size: 90px; }
-  #info-container #general-info .col {
-    padding: 0px 35px 35px 0px; }
-  #info-container #course-info .icon-size {
-    font-size: 90px;
-    color: #e12419; }
-  #info-container #course-info .col {
-    padding: 35px; }
-  #info-container #course-info .test-heading-icon {
-    font-size: 30px; }
-  #info-container #course-info button {
-    width: 118px; }
-  #info-container #student-feedback .process-wrapper {
-    height: 30px;
-    background-color: #e3e3e4;
-    border: 1px solid #e3e3e4;
-    border-radius: 10px;
-    padding: 0; }
-  #info-container #student-feedback .rating-score {
-    font-weight: 400;
-    font-size: 9em; }
-  #info-container #student-feedback .rating-star-wrapper {
-    font-size: 2em; }
-  #info-container #student-feedback .small-rating-star-wrapper {
-    font-size: 2em; }
+    margin-bottom: 2em;
+    color: #1a2844; }
+  #info-container #general-info {
+    box-shadow: 0 4px 9px 0 rgba(67, 65, 79, 0.1); }
+    #info-container #general-info .icon-size {
+      font-size: 90px; }
+    #info-container #general-info .col {
+      padding: 0px 35px 35px 0px; }
+  #info-container #course-info {
+    box-shadow: 0 4px 9px 0 rgba(67, 65, 79, 0.1); }
+    #info-container #course-info .icon-size {
+      font-size: 90px;
+      color: #e12419; }
+    #info-container #course-info .col {
+      padding: 35px; }
+    #info-container #course-info .test-heading-icon {
+      font-size: 30px; }
+    #info-container #course-info button {
+      width: 118px; }
+  #info-container #student-feedback {
+    box-shadow: 0 4px 9px 0 rgba(67, 65, 79, 0.1); }
+    #info-container #student-feedback .process-wrapper {
+      height: 25px;
+      background-color: #e3e3e4;
+      border: 1px solid #e3e3e4;
+      border-radius: 10px;
+      padding: 0; }
+      #info-container #student-feedback .process-wrapper .process {
+        height: 25px;
+        background-color: #625f5f; }
+    #info-container #student-feedback .rating-score {
+      font-weight: 400;
+      font-size: 7.5em; }
+    #info-container #student-feedback .rating-star-wrapper {
+      font-size: 2em; }
+    #info-container #student-feedback .small-rating-star-wrapper {
+      font-size: 2em;
+      height: 25px; }
+  #info-container #pricing {
+    box-shadow: 0 4px 9px 0 rgba(67, 65, 79, 0.1); }
+  #info-container #demo-pricing-table {
+    color: red;
+    margin-top: 30px; }
+    #info-container #demo-pricing-table .pricing-table-header {
+      height: 109px;
+      background-image: url("../img/assets/pricing-table.png");
+      background-repeat: no-repeat; }
+    #info-container #demo-pricing-table .test {
+      height: 100px;
+      background: white;
+      box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.17);
+      border-radius: 10px; }
   #info-container .title-rate-tab {
     height: 40px; }
   #info-container .course-title {
@@ -373,17 +398,14 @@
   cursor: pointer; }
 
 #stick-vertical-nav {
+  margin-bottom: 22px;
   font-weight: bold; }
   #stick-vertical-nav #mainNav {
-    margin-left: 30px; }
+    margin-left: 15px; }
   #stick-vertical-nav nav {
-    position: fixed;
-    top: 71px;
-    z-index: 999999999;
     background-color: rgba(255, 255, 255, 0.93);
     opacity: 1;
-    width: 100%;
-    border-bottom: 1px solid gainsboro; }
+    width: 100%; }
   #stick-vertical-nav ul {
     margin: 0;
     padding: 0;

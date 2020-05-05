@@ -80,6 +80,13 @@
     margin-left: 1em;
     margin-bottom: 2em;
     color: #1a2844; }
+  #info-container .course-title {
+    font-size: 1.3em;
+    font-weight: 500; }
+    #info-container .course-title__icon {
+      font-size: 1.4em;
+      width: 30px;
+      height: 30px; }
   #info-container .bouding-box {
     box-shadow: 0 4px 9px 0 rgba(67, 65, 79, 0.1);
     border: solid 2px #f5f5f5; }
@@ -127,9 +134,6 @@
       border-radius: 10px; }
   #info-container .title-rate-tab {
     height: 40px; }
-  #info-container .course-title {
-    background-color: inherit;
-    border-bottom: inherit; }
   #info-container #nav-tabContent::-webkit-scrollbar {
     width: 6px;
     background-color: #f5f5f5; }

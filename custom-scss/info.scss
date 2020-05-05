@@ -33,8 +33,13 @@
     color: #1a2844;
   }
 
-  #general-info {
+  .bouding-box {
     box-shadow: 0 4px 9px 0 rgba(67, 65, 79, 0.1);
+    border: solid 2px #f5f5f5;
+  }
+
+  #general-info {
+    // box-shadow: 0 4px 9px 0 rgba(67, 65, 79, 0.1);
     .icon-size {
       font-size: 90px;
     }
@@ -44,7 +49,7 @@
   }
 
   #course-info {
-    box-shadow: 0 4px 9px 0 rgba(67, 65, 79, 0.1);
+    // box-shadow: 0 4px 9px 0 rgba(67, 65, 79, 0.1);
     .icon-size {
       font-size: 90px;
       color: #e12419;
@@ -61,7 +66,7 @@
   }
 
   #student-feedback {
-    box-shadow: 0 4px 9px 0 rgba(67, 65, 79, 0.1);
+    // box-shadow: 0 4px 9px 0 rgba(67, 65, 79, 0.1);
     .process-wrapper {
       height: 25px;
       background-color: #e3e3e4;
@@ -87,7 +92,7 @@
   }
 
   #pricing {
-    box-shadow: 0 4px 9px 0 rgba(67, 65, 79, 0.1);
+    // box-shadow: 0 4px 9px 0 rgba(67, 65, 79, 0.1);
   }
 
   #demo-pricing-table {

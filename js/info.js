@@ -32,33 +32,33 @@ $(document).ready(function () {
 
 
   // Bind to scroll
-  $(window).scroll(function () {
-    // Get container scroll position
-    var fromTop = $(this).scrollTop() + topMenuHeight;
+  // $(window).scroll(function () {
+  //   // Get container scroll position
+  //   var fromTop = $(this).scrollTop() + topMenuHeight;
 
-    if (fromTop < 80) {
-      menuItems
-        .parent().removeClass("active")
-        .end().filter("[href='#" + 'general-info' + "']").parent().addClass("active");
-    }
+  //   if (fromTop < 80) {
+  //     menuItems
+  //       .parent().removeClass("active")
+  //       .end().filter("[href='#" + 'general-info' + "']").parent().addClass("active");
+  //   }
 
-    // Get id of current scroll item
-    var cur = scrollItems.map(function () {
-      if ($(this).offset().top < fromTop)
-        return this;
-    });
-    // Get the id of the current element
-    cur = cur[cur.length - 1];
-    var id = cur && cur.length ? cur[0].id : "";
+  //   // Get id of current scroll item
+  //   var cur = scrollItems.map(function () {
+  //     if ($(this).offset().top < fromTop)
+  //       return this;
+  //   });
+  //   // Get the id of the current element
+  //   cur = cur[cur.length - 1];
+  //   var id = cur && cur.length ? cur[0].id : "";
 
-    if (lastId !== id) {
-      lastId = id;
-      // Set/remove active class
-      menuItems
-        .parent().removeClass("active")
-        .end().filter("[href='#" + id + "']").parent().addClass("active");
-    }
-  });
+  //   if (lastId !== id) {
+  //     lastId = id;
+  //     // Set/remove active class
+  //     menuItems
+  //       .parent().removeClass("active")
+  //       .end().filter("[href='#" + id + "']").parent().addClass("active");
+  //   }
+  // });
 
 
   $('body').materialScrollTop();

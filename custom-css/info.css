@@ -80,44 +80,39 @@
     margin-left: 1em;
     margin-bottom: 2em;
     color: #1a2844; }
-  #info-container #general-info {
-    box-shadow: 0 4px 9px 0 rgba(67, 65, 79, 0.1); }
-    #info-container #general-info .icon-size {
-      font-size: 90px; }
-    #info-container #general-info .col {
-      padding: 0px 35px 35px 0px; }
-  #info-container #course-info {
-    box-shadow: 0 4px 9px 0 rgba(67, 65, 79, 0.1); }
-    #info-container #course-info .icon-size {
-      font-size: 90px;
-      color: #e12419; }
-    #info-container #course-info .col {
-      padding: 35px; }
-    #info-container #course-info .test-heading-icon {
-      font-size: 30px; }
-    #info-container #course-info button {
-      width: 118px; }
-  #info-container #student-feedback {
-    box-shadow: 0 4px 9px 0 rgba(67, 65, 79, 0.1); }
-    #info-container #student-feedback .process-wrapper {
+  #info-container .bouding-box {
+    box-shadow: 0 4px 9px 0 rgba(67, 65, 79, 0.1);
+    border: solid 2px #f5f5f5; }
+  #info-container #general-info .icon-size {
+    font-size: 90px; }
+  #info-container #general-info .col {
+    padding: 0px 35px 35px 0px; }
+  #info-container #course-info .icon-size {
+    font-size: 90px;
+    color: #e12419; }
+  #info-container #course-info .col {
+    padding: 35px; }
+  #info-container #course-info .test-heading-icon {
+    font-size: 30px; }
+  #info-container #course-info button {
+    width: 118px; }
+  #info-container #student-feedback .process-wrapper {
+    height: 25px;
+    background-color: #e3e3e4;
+    border: 1px solid #e3e3e4;
+    border-radius: 10px;
+    padding: 0; }
+    #info-container #student-feedback .process-wrapper .process {
       height: 25px;
-      background-color: #e3e3e4;
-      border: 1px solid #e3e3e4;
-      border-radius: 10px;
-      padding: 0; }
-      #info-container #student-feedback .process-wrapper .process {
-        height: 25px;
-        background-color: #625f5f; }
-    #info-container #student-feedback .rating-score {
-      font-weight: 400;
-      font-size: 7.5em; }
-    #info-container #student-feedback .rating-star-wrapper {
-      font-size: 2em; }
-    #info-container #student-feedback .small-rating-star-wrapper {
-      font-size: 2em;
-      height: 25px; }
-  #info-container #pricing {
-    box-shadow: 0 4px 9px 0 rgba(67, 65, 79, 0.1); }
+      background-color: #625f5f; }
+  #info-container #student-feedback .rating-score {
+    font-weight: 400;
+    font-size: 7.5em; }
+  #info-container #student-feedback .rating-star-wrapper {
+    font-size: 2em; }
+  #info-container #student-feedback .small-rating-star-wrapper {
+    font-size: 2em;
+    height: 25px; }
   #info-container #demo-pricing-table {
     color: red;
     margin-top: 30px; }

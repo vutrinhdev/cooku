@@ -38,8 +38,8 @@
     font-weight: 500;
     &__icon {
       font-size: 1.4em;
-      width: 30px;
-      height: 30px;
+      width: 23px;
+      height: 23px;
     }
   }
 
@@ -102,10 +102,6 @@
   }
 
   #pricing {
-    // box-shadow: 0 4px 9px 0 rgba(67, 65, 79, 0.1);
-  }
-
-  #demo-pricing-table {
     color: red;
     margin-top: 30px;
     .pricing-table-header {
@@ -113,11 +109,110 @@
       background-image: url("../img/assets/pricing-table.png");
       background-repeat: no-repeat;
     }
-    .test {
-      height: 100px;
-      background: white;
-      box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.17);
-      border-radius: 10px;
+    .pricing-table-wrapper {
+      width: 70%;
+      margin: auto;
+
+      .label {
+        position: absolute;
+        top: -22px;
+        width: 100%;
+        height: 100%;
+      }
+      .check-icon {
+        color: green;
+        font-size: 35px;
+      }
+      .uncheck-icon {
+        color: #898181;
+        font-size: 35px;
+      }
+      .header {
+        font-size: 1.1em;
+        color: black;
+        font-weight: 500;
+        line-height: 1.8em;
+      }
+      .row-text {
+        font-size: 1.5em;
+        color: black;
+        font-weight: 500;
+        line-height: 1.8em;
+      }
+
+      .centered {
+        position: absolute;
+        top: 30px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        &.price {
+          top: 53px;
+        }
+      }
+
+      .label1-wrapper {
+        height: 100px;
+        background: #f6f6f6;
+        border-radius: 10px;
+        .label1 {
+          background: url("../img/assets/label1.png") no-repeat center center;
+          height: 100%;
+        }
+      }
+      .label2-wrapper {
+        height: 100px;
+        background: #f6f6f6;
+        border-radius: 10px;
+        .label2 {
+          background: url("../img/assets/label2.png") no-repeat center center;
+          height: 100%;
+        }
+      }
+      .label3-wrapper {
+        height: 100px;
+        background: #f6f6f6;
+        border-radius: 10px;
+        .label3 {
+          background: url("../img/assets/label3.png") no-repeat center center;
+          height: 100%;
+        }
+      }
+      .label4-wrapper {
+        height: 100px;
+        background: #f6f6f6;
+        border-radius: 10px;
+        .label4 {
+          background: url("../img/assets/label4.png") no-repeat center center;
+          height: 100%;
+        }
+      }
+      .label5-wrapper {
+        height: 100px;
+        background: #f6f6f6;
+        border-radius: 10px;
+        .label5 {
+          background: url("../img/assets/label5.png") no-repeat center center;
+          height: 100%;
+        }
+      }
+
+      .column {
+        padding-left: 2px;
+        padding-right: 2px;
+      }
+
+      .row-wrapper {
+        position: relative;
+        text-align: center;
+        .centered {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: #fff;
+        }
+      }
     }
   }
 

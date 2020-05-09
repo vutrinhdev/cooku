@@ -201,17 +201,26 @@
         padding-left: 2px;
         padding-right: 2px;
       }
+      .starer-btn {
+        background-color: #0b8998;
+        border-color: #0b8998;
+        color: #fff;
+      }
 
-      .row-wrapper {
-        position: relative;
-        text-align: center;
-        .centered {
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          color: #fff;
-        }
+      .basic-btn {
+        background-color: #8cb453;
+        border-color: #8cb453;
+        color: #fff;
+      }
+      .standart-btn {
+        background-color: #fa9418;
+        border-color: #fa9418;
+        color: #fff;
+      }
+      .premium-btn {
+        background-color: #e8483a;
+        border-color: #e8483a;
+        color: #fff;
       }
     }
   }

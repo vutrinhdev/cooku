@@ -197,15 +197,22 @@
       #info-container #pricing .pricing-table-wrapper .column {
         padding-left: 2px;
         padding-right: 2px; }
-      #info-container #pricing .pricing-table-wrapper .row-wrapper {
-        position: relative;
-        text-align: center; }
-        #info-container #pricing .pricing-table-wrapper .row-wrapper .centered {
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          color: #fff; }
+      #info-container #pricing .pricing-table-wrapper .starer-btn {
+        background-color: #0b8998;
+        border-color: #0b8998;
+        color: #fff; }
+      #info-container #pricing .pricing-table-wrapper .basic-btn {
+        background-color: #8cb453;
+        border-color: #8cb453;
+        color: #fff; }
+      #info-container #pricing .pricing-table-wrapper .standart-btn {
+        background-color: #fa9418;
+        border-color: #fa9418;
+        color: #fff; }
+      #info-container #pricing .pricing-table-wrapper .premium-btn {
+        background-color: #e8483a;
+        border-color: #e8483a;
+        color: #fff; }
   #info-container .title-rate-tab {
     height: 40px; }
   #info-container #nav-tabContent::-webkit-scrollbar {

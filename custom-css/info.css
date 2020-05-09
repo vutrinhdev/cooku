@@ -100,9 +100,14 @@
   #info-container #course-info .col {
     padding: 35px; }
   #info-container #course-info .test-heading-icon {
-    font-size: 30px; }
+    font-size: 40px;
+    color: #1a2844; }
   #info-container #course-info button {
     width: 118px; }
+  #info-container #course-info .header-title-table {
+    font-size: 1.5em; }
+  #info-container #course-info .title-course-table {
+    font-size: 1.2em; }
   #info-container #student-feedback .process-wrapper {
     height: 25px;
     background-color: #e3e3e4;

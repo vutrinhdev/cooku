@@ -112,7 +112,6 @@
     height: 25px;
     background-color: #e3e3e4;
     border: 1px solid #e3e3e4;
-    border-radius: 10px;
     padding: 0; }
     #info-container #student-feedback .process-wrapper .process {
       height: 25px;
@@ -168,39 +167,39 @@
         #info-container #pricing .pricing-table-wrapper .centered.price {
           top: 33px; }
       #info-container #pricing .pricing-table-wrapper .label1-wrapper {
-        height: 100px;
+        height: 114px;
         background: #f6f6f6;
         border-radius: 10px; }
         #info-container #pricing .pricing-table-wrapper .label1-wrapper .label1 {
-          background: url("../img/assets/label1.png") no-repeat center center;
+          background: url("../img/assets/label1-new.png") no-repeat center center;
           height: 100%; }
       #info-container #pricing .pricing-table-wrapper .label2-wrapper {
-        height: 100px;
+        height: 114px;
         background: #f6f6f6;
         border-radius: 10px; }
         #info-container #pricing .pricing-table-wrapper .label2-wrapper .label2 {
-          background: url("../img/assets/label2.png") no-repeat center center;
+          background: url("../img/assets/label2-new.png") no-repeat center center;
           height: 100%; }
       #info-container #pricing .pricing-table-wrapper .label3-wrapper {
-        height: 100px;
+        height: 114px;
         background: #f6f6f6;
         border-radius: 10px; }
         #info-container #pricing .pricing-table-wrapper .label3-wrapper .label3 {
-          background: url("../img/assets/label3.png") no-repeat center center;
+          background: url("../img/assets/label3-new.png") no-repeat center center;
           height: 100%; }
       #info-container #pricing .pricing-table-wrapper .label4-wrapper {
-        height: 100px;
+        height: 114px;
         background: #f6f6f6;
         border-radius: 10px; }
         #info-container #pricing .pricing-table-wrapper .label4-wrapper .label4 {
-          background: url("../img/assets/label4.png") no-repeat center center;
+          background: url("../img/assets/label4-new.png") no-repeat center center;
           height: 100%; }
       #info-container #pricing .pricing-table-wrapper .label5-wrapper {
-        height: 100px;
+        height: 114px;
         background: #f6f6f6;
         border-radius: 10px; }
         #info-container #pricing .pricing-table-wrapper .label5-wrapper .label5 {
-          background: url("../img/assets/label5.png") no-repeat center center;
+          background: url("../img/assets/label5-new.png") no-repeat center center;
           height: 100%; }
       #info-container #pricing .pricing-table-wrapper .column {
         padding-left: 2px;
